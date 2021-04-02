@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import pygame
 def song():
-    file = "example.wav"
+    file = "Prj/example.wav"
     pygame.mixer.init()
     pygame.mixer.music.load(file)
     pygame.mixer.music.play(-1)
@@ -30,10 +30,10 @@ pygame.draw.rect(screen,GREEN,(20,50,20,20))
 pygame.draw.rect(screen,BLUE,(20,70,20,20))
 pygame.draw.rect(screen,BLACK,(0,90,20,20))
 pygame.draw.rect(screen,PINK,(20,90,20,20))
-erasor = pygame.transform.scale(pygame.image.load("erasor.jpg"), (40, 40))
-size1 = pygame.transform.scale(pygame.image.load("size1.png"), (40, 40))
-size2=pygame.transform.scale(pygame.image.load("size2.png"),(40,40))
-size3=pygame.transform.scale(pygame.image.load("size3.png"),(40,30))
+erasor = pygame.transform.scale(pygame.image.load("Prj/erasor.jpg"), (40, 40))
+size1 = pygame.transform.scale(pygame.image.load("Prj/size1.png"), (40, 40))
+size2=pygame.transform.scale(pygame.image.load("Prj/size2.png"),(40,40))
+size3=pygame.transform.scale(pygame.image.load("Prj/size3.png"),(40,30))
 screen.blit(erasor, [0,110])
 screen.blit(size1, [0,150])
 screen.blit(size2, [0,190])
